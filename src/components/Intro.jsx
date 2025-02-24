@@ -1,5 +1,9 @@
 import React from 'react';
 import { Hammer, Ruler, Gem } from 'lucide-react';
+import img2 from '../assets/img2.jpg'
+import img4 from '../assets/img4.jpg'
+import img9 from '../assets/img9.jpg'
+import img12 from '../assets/img12.jpg'
 
 const IntroductionSection = () => {
   const techniques = [
@@ -21,7 +25,7 @@ const IntroductionSection = () => {
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-b from-white to-gray-50">
+    <section className="py-14 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Introduction */}
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
@@ -43,24 +47,24 @@ const IntroductionSection = () => {
           {/* Image Gallery */}
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://images.unsplash.com/photo-1605117882341-5fa8bf27b6e7"
+              src={img2}
               alt="Metalworking Process"
-              className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 h-48 w-full object-cover"
+              className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 h-56 w-full object-cover"
             />
             <img
-              src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122"
+              src={img4}
               alt="Metal Sculpture Detail"
-              className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 h-48 w-full object-cover mt-8"
+              className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 h-56 w-full object-cover mt-6"
             />
             <img
-              src="https://images.unsplash.com/photo-1461344577544-4e5dc9487184"
+              src={img9}
               alt="Workshop Environment"
-              className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 h-48 w-full object-cover"
+              className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 h-56 w-full object-cover"
             />
             <img
-              src="https://images.unsplash.com/photo-1582645752074-b51579befcb7"
+              src={img12}
               alt="Finished Artwork"
-              className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 h-48 w-full object-cover mt-8"
+              className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 h-56 w-full object-cover mt-6"
             />
           </div>
         </div>

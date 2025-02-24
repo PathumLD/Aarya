@@ -1,5 +1,7 @@
 import React from 'react';
 import { ArrowRight, Shield, Paintbrush, Wrench, Users, Clock, Sparkles } from 'lucide-react';
+import img31 from '../assets/img31.jpg'
+
 
 const ServicesPage = () => {
   const services = [
@@ -78,7 +80,7 @@ const ServicesPage = () => {
       <section className="relative h-[40vh] overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/api/placeholder/1920/1080"
+            src= {img31}
             alt="Services Banner"
             className="w-full h-full object-cover"
           />

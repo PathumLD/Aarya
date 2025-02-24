@@ -1,13 +1,21 @@
 import React from 'react';
 import { Award, Users, Hammer, Heart } from 'lucide-react';
 // import Header from '../components/Header';
+import img20 from '../assets/img20.jpg'
+import img8 from '../assets/img8.jpg'
+import Profile from '../assets/Profile.jpg'
+import img28 from '../assets/img28.jpg'
+import img29 from '../assets/img29.jpg'
+import img30 from '../assets/img30.jpg'
+import img31 from '../assets/img31.jpg'
+
 
 const AboutPage = () => {
   const teamMembers = [
     {
       name: "Rahul Sharma",
       role: "Lead Sculptor/Founder",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e",
+      image: Profile,
       description: "With over 20 years of experience in metal sculpting, Rahul leads our creative vision."
     },
     {
@@ -28,17 +36,17 @@ const AboutPage = () => {
     {
       title: "TIG Welding",
       description: "Precision welding for delicate and intricate metal connections",
-      image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122"
+      image: img28
     },
     {
       title: "Metal Forming",
       description: "Traditional and modern techniques for shaping metal",
-      image: "https://images.unsplash.com/photo-1605117882341-5fa8bf27b6e7"
+      image: img29
     },
     {
       title: "Surface Treatment",
       description: "Specialized finishing methods for durability and aesthetics",
-      image: "https://images.unsplash.com/photo-1582645752074-b51579befcb7"
+      image: img30
     }
   ];
 
@@ -57,13 +65,13 @@ const AboutPage = () => {
         <section className="relative h-[40vh] overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="https://images.unsplash.com/photo-1461344577544-4e5dc9487184"
+              src={img31}
               alt="Workshop"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-black/70" />
           </div>
-          <div className="relative h-full flex items-center">
+          <div className="relative h-full flex items-center mt-4">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
                 Our Story in
@@ -95,12 +103,12 @@ const AboutPage = () => {
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <img
-                  src="https://images.unsplash.com/photo-1461344577544-4e5dc9487184"
+                  src={img20}
                   alt="Early Days"
                   className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
                 />
                 <img
-                  src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122"
+                  src={img8}
                   alt="Present Day"
                   className="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 mt-8"
                 />
@@ -129,7 +137,7 @@ const AboutPage = () => {
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-64 object-cover"
+                    className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500"
                   />
                   <div className="p-6">
                     <h3 className="text-xl font-semibold text-[#333333] mb-2">
@@ -159,7 +167,7 @@ const AboutPage = () => {
                   <img
                     src={technique.image}
                     alt={technique.title}
-                    className="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500"
+                    className="w-full h-80  object-cover transform group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                     <div className="p-6">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import BG from '../assets/BG.png'
 
 const HeroSection = () => {
   return (
@@ -8,7 +9,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 bg-black/80 z-10" /> {/* Dark overlay */}
         <img
-          src="https://cdn.leonardo.ai/users/bb0c4d3d-70f2-47a9-935e-5cb80a27fbc8/generations/3402a64c-5dcb-4e4a-87dc-af04b217ce07/Leonardo_Phoenix_09_Create_a_modern_elegant_background_image_f_1.jpg"
+          src={BG}
           alt="Metal Sculpture Workshop"
           className="w-full h-full object-cover object-center"
         />

@@ -13,7 +13,7 @@ const Hero = () => {
         {/* <Header /> */}
         <HeroSection />
         <IntroductionSection />
-        <ServicesSection />
+        {/* <ServicesSection /> */}
         <TestimonialsSection />
         <PortfolioSection />
         <CTASection />

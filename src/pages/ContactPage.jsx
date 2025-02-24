@@ -1,5 +1,7 @@
 import React from 'react';
 import { MapPin, Phone, Mail, Download, Facebook, Instagram, Twitter, ArrowRight } from 'lucide-react';
+import img32 from '../assets/img32.jpg'
+
 
 const ContactPage = () => {
   const handleSubmit = (e) => {
@@ -13,7 +15,7 @@ const ContactPage = () => {
       <section className="relative h-[40vh] overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/api/placeholder/1920/1080"
+            src= {img32}
             alt="Contact Banner"
             className="w-full h-full object-cover"
           />

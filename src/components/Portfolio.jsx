@@ -1,15 +1,21 @@
 import React, { useState } from 'react';
-import { Search, Filter } from 'lucide-react';
+import { Search } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import img23 from '../assets/img23.png';
+import img1 from '../assets/img1.jpg';
+import img9 from '../assets/img9.jpg';
+import img15 from '../assets/img15.jpg';
+import img4 from '../assets/img4.jpg';
+import img17 from '../assets/img17.jpg';
 
 const PortfolioSection = () => {
   const [activeFilter, setActiveFilter] = useState('All');
   const navigate = useNavigate();
 
   const handleLoadMore = () => {
-      navigate('/gallery')
-      window.scrollTo(0, 0);
-  }
+    navigate('/gallery');
+    window.scrollTo(0, 0);
+  };
 
   const filters = [
     'All',
@@ -24,42 +30,42 @@ const PortfolioSection = () => {
       title: "Phoenix Rising",
       category: "Public",
       description: "A 20-foot metal sculpture symbolizing renewal and growth",
-      image: "https://images.unsplash.com/photo-1544531586-fde5298cdd40",
+      image: img23, 
       tags: ["Public Art", "Large Scale", "Bronze"]
     },
     {
       title: "Corporate Harmony",
       category: "Corporate",
       description: "Abstract wall installation for tech headquarters",
-      image: "https://images.unsplash.com/photo-1549490349-8643362247b5",
+      image: img1,
       tags: ["Corporate", "Modern", "Stainless Steel"]
     },
     {
       title: "Garden Whispers",
       category: "Residential",
       description: "Custom garden sculpture series",
-      image: "https://images.unsplash.com/photo-1581092446327-9b52bd1570c2",
+      image: img9,
       tags: ["Residential", "Outdoor", "Copper"]
     },
     {
       title: "Urban Flow",
       category: "Architectural",
       description: "Integrated facade elements for modern building",
-      image: "https://images.unsplash.com/photo-1576786672534-4c5677ee3a10",
+      image: img15,
       tags: ["Architectural", "Steel", "Large Scale"]
     },
     {
       title: "Momentum",
       category: "Public",
       description: "Dynamic sculpture for city plaza",
-      image: "https://images.unsplash.com/photo-1563396983906-b3795482a59a",
+      image: img4,
       tags: ["Public Art", "Steel", "Kinetic"]
     },
     {
       title: "Geometric Harmony",
       category: "Corporate",
       description: "Lobby centerpiece installation",
-      image: "https://images.unsplash.com/photo-1544531586-fde5298cdd40",
+      image: img17,
       tags: ["Corporate", "Abstract", "Mixed Metal"]
     }
   ];
@@ -163,7 +169,6 @@ const PortfolioSection = () => {
             <span>Load More Projects</span>
             <span className="transform group-hover:translate-x-1 transition-transform">→</span>
           </button>
-          
         </div>
       </div>
     </section>

@@ -8,9 +8,6 @@ import PortfolioPage from './pages/PortfolioPage'
 import ServicesPage from './pages/ServicesPage'
 import ContactPage from './pages/ContactPage'
 
-import './firebase/Firebase'
-import AddProjectPage from './pages/AddProjectPage'
-
 function App() {
 
   return (
@@ -24,7 +21,6 @@ function App() {
         <Route path="/gallery" element={<PortfolioPage />} />
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/contact" element={<ContactPage />} />
-        <Route path="/add" element={<AddProjectPage />} />
       </Routes>
     </>
   )

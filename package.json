@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.743.0",
     "cors": "^2.8.5",
     "firebase": "^11.2.0",
+    "framer-motion": "^12.4.7",
     "googleapis": "^144.0.0",
     "lucide-react": "^0.474.0",
     "react": "^18.3.1",
