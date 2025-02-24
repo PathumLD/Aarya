@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, BrowserRouter } from 'react-router-dom'
 import './App.css'
 import Header from './components/Header'
 import AboutPage from './pages/About'
@@ -12,6 +12,7 @@ function App() {
 
   return (
     <>
+    <BrowserRouter>
       <Header />
       {/* <HeroPage />
       <AboutPage /> */}
@@ -22,6 +23,7 @@ function App() {
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
+      </BrowserRouter>
     </>
   )
 }
