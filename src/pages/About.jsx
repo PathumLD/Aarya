@@ -1,13 +1,13 @@
 import React from 'react';
 import { Award, Users, Hammer, Heart } from 'lucide-react';
 // import Header from '../components/Header';
-import img20 from '../assets/img20.jpg'
-import img8 from '../assets/img8.jpg'
-import Profile from '../assets/Profile.jpg'
-import img28 from '../assets/img28.jpg'
-import img29 from '../assets/img29.jpg'
-import img30 from '../assets/img30.jpg'
-import img31 from '../assets/img31.jpg'
+import img20 from '../assets/img20.webp'
+import img8 from '../assets/img8.webp'
+import Profile from '../assets/Profile.webp'
+import img28 from '../assets/img28.webp'
+import img29 from '../assets/img29.webp'
+import img30 from '../assets/img30.webp'
+import img31 from '../assets/img31.webp'
 
 
 const AboutPage = () => {

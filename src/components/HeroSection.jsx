@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
-import BG from '../assets/BG.png'
+import BG from '../assets/BG.webp'
 
 const HeroSection = () => {
   return (

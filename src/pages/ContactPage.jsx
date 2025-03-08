@@ -1,6 +1,6 @@
 import React from 'react';
 import { MapPin, Phone, Mail, Download, Facebook, Instagram, Twitter, ArrowRight } from 'lucide-react';
-import img32 from '../assets/img32.jpg'
+import img32 from '../assets/img32.webp'
 
 
 const ContactPage = () => {

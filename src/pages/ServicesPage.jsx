@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRight, Shield, Paintbrush, Wrench, Users, Clock, Sparkles } from 'lucide-react';
-import img31 from '../assets/img31.jpg'
+import img31 from '../assets/img31.webp'
 
 
 const ServicesPage = () => {

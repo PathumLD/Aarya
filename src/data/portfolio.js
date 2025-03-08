@@ -1,4 +1,4 @@
-import img23 from '../assets/img23.png'
+import img23 from '../assets/img23.webp'
 
     // 'Residential',
     // 'Public',

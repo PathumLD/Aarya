@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Search, Filter, ArrowRight, X, ChevronLeft, ChevronRight } from 'lucide-react';
 import portfolioData from '../data/portfolio.js'; // Import the local JavaScript data file
-import img32 from '../assets/img32.jpg'
+import img32 from '../assets/img32.webp'
 
 
 const PortfolioPage = () => {

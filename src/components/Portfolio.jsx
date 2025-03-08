@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Search } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import img23 from '../assets/img23.png';
-import img1 from '../assets/img1.jpg';
-import img9 from '../assets/img9.jpg';
-import img15 from '../assets/img15.jpg';
-import img4 from '../assets/img4.jpg';
-import img17 from '../assets/img17.jpg';
+import img23 from '../assets/img23.webp';
+import img1 from '../assets/img1.webp';
+import img9 from '../assets/img9.webp';
+import img15 from '../assets/img15.webp';
+import img4 from '../assets/img4.webp';
+import img17 from '../assets/img17.webp';
 
 const PortfolioSection = () => {
   const [activeFilter, setActiveFilter] = useState('All');

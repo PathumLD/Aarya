@@ -1,9 +1,9 @@
 import React from 'react';
 import { Hammer, Ruler, Gem } from 'lucide-react';
-import img2 from '../assets/img2.jpg'
-import img4 from '../assets/img4.jpg'
-import img9 from '../assets/img9.jpg'
-import img12 from '../assets/img12.jpg'
+import img2 from '../assets/img2.webp'
+import img4 from '../assets/img4.webp'
+import img9 from '../assets/img9.webp'
+import img12 from '../assets/img12.webp'
 
 const IntroductionSection = () => {
   const techniques = [
